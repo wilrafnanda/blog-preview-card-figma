@@ -1,0 +1,83 @@
+@font-face {
+    font-family:'myfont' ;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "second";
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "myfont";
+}
+body{
+    background: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    background: white;
+    width: 85%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 15px 0px 15px  8px rgba(0,0,0);
+
+    
+}
+.main-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90% auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.main-pic img{
+    border-radius: 15px;
+    width: 330px;
+}
+button{
+    color: black;
+    font-weight: bold;
+    border: none;
+    background: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+}
+.avatar img{
+    width: 40px;
+}
+h3{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+
+}
+h2{
+    font-family: "second";
+    font-size:1.3rem;
+    margin-bottom: 20px;
+
+}
+.text{
+    color: rgb(122, 121, 121);
+    max-width: 350px;
+    line-height: 25px;
+
+}
